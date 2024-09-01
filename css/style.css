@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+ol,ul{
+  list-style-type: none;
+}
+
+#bannerpart{
+
+}
+
+.slider{
+  padding: 350px 0;
+  background: url(../images/img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.one{
+  padding: 350px 0;
+  background: url(../images/img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.two{
+  padding: 350px 0;
+  background: url(../images/img.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prev{
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.next{
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+}
+
+.slick-dots li{
+  position: relative;
+}
+.slick-dots li button{
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 30px;
+    height: 1px;
+    padding: 1px;
+    cursor: pointer;
+    color: transparent;
+    border: 1px solid rgb(255, 0, 0);
+    outline: none;
+}
+#slick-slide-control00{
+  position: absolute;
+  bottom: 50px;
+  left: 550px;
+}
+#slick-slide-control01{
+  position: absolute;
+  bottom: 50px;
+  left: 600px;
+}
+#slick-slide-control02{
+  position: absolute;
+  bottom: 50px;
+  left: 650px;
+}
+.slick-active button{
+    background:red;
+}
+.slick-dots li button:hover{
+    background:red;
+}
